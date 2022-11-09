@@ -11,6 +11,23 @@
     header {
         height: 80px;   
         }
+    h1 {
+            font-size: 50px;
+            margin: 0 0 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    .jumbo-pic{
+        height: 280px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: small;
+    }
+    p{
+        font-size: small;
+        margin-bottom: 40px;
+    }
     /*Navbar  */
     .container-header{
         height: 0 auto;
@@ -30,9 +47,6 @@
         align-items: center;
         justify-content: space-between;
     }
-    .menu-left,.menu-right{
-        background-color: blue;
-    }
     .menu-left ul, .menu-right ul{
         list-style-type: none;
         display: flex;
@@ -40,7 +54,6 @@
         justify-content: center;
       }
       .menu-left li ,.menu-right li{
-        background: white;
         margin: 5px;
         padding: 10px;
       }
@@ -48,10 +61,42 @@
         text-decoration: none;
         color: grey;
       }
+      .b-small{
+        color:white;
+        background-color: rgb(0,97,255);
+        padding: 5px 12px;
+        border: 0;
+      }
+      /* Main */
+      .jumbotron{
+        width: 0, auto;
+        height: 450px;
+        background-color:rgb(180,208,231) ;
+      }
       .principale{
-       width: 0 auto;
-        height: 800px;
-        display: flex;  
-        font-size:small;
-        background-color: rgb(180,208,231);
+        position: relative;
+        margin:     0px auto;
+        max-width: 700px;
+        height: 500px;
+      }
+      .container{
+        width: 0, auto;
+        height: 1200px;
+      }
+      .float-right{
+        float:right;
+      }
+
+      /* Bottoni */
+      .b-button{
+        color:white;
+        background-color: rgb(0,97,255);
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      .downward{
+        font-size: 30px;
+        position:absolute;
+        bottom:50px;
+        left:5px;
       }
