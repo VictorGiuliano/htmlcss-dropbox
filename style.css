@@ -71,6 +71,7 @@
       /* Main */
       .container{
         width: 0, auto;
+        height: 2000px;
         min-height: 900px;
       }
       .jumbotron{
@@ -99,10 +100,6 @@
         clear: both;
         display: table;
 }
-      .container{
-        width: 0, auto;
-        height: 1200px;
-      }
       .float-right{
         float:right;
       }
@@ -136,16 +133,13 @@
         width: auto;
         padding: 5px 10px;
         font-size: x-small;
-
       }
-
       .downward{
         font-size: 23px;
         position:absolute;
         bottom:45px;
         left:5px;
       }
-
       .container-cerchi{
         display: flex;
         height: 20px;
@@ -221,4 +215,8 @@
         .partner-pic{
           height: 380px;
           margin-right: 25px;
+        }
+        .vantaggi{
+          width: 0, auto;
+          background-color:rgb(180,208,231) ;
         }
