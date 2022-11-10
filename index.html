@@ -7,17 +7,14 @@
     <meta name="author" content="Victor Giuliano">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>DropBox</title>
 </head>
 <body>
     <header>
-        <div class="container-header">
-          <div class="container-logo">
-                <div class="logo"><img src="img/img/logo-small.png"></div>
-            </div>
             <div class="container-navbar">
              <div class="menu-left">
                     <ul>
+                        <li><a href="#"><img src="img/img/logo-small.png"></a></li>
                         <li><a href="#">Perchè Dropbox</a></li>
                         <li><a href="#">Funzioni</a></li>
                         <li><a href="#">Piani e Prezzi</a></li>
@@ -31,12 +28,11 @@
                     <li><button class="b-small"><a href="#"></a>Inizia</button></li>
                 </ul>
             </div>
-            </div>   
-        </div>     
+        </div>   
     </header>
     <main>
-        <div class="jumbotron">
-          <section class = "principale">
+        <section class="jumbotron">
+          <div class="principale clearfix">
             <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
             <img class="jumbo-pic float-right"src="img/img/jumbo.png" alt="Jumbopic">
         <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto.
@@ -46,11 +42,49 @@
         <a class = "downward">
           <i class="fas fa-arrow-down fa 3x"></i>  
         </a>
+    </div>
         </section>
-        </div>
         <div class="container">
-            
+         <section class="secondario">
+            <h3>Trova il Piano Business che fa per te </h3>
+            <div class="container-cerchi"> 
+            <div class="cerchio bordo"></div>
+            <p>Fatturazione mensile</p>
+            <div class="cerchio"></div>
+            <p>Fatturazione annuale</p>
+            </div>
+            <div class="row">
+                <div class="colum">
+                    <div class="card">
+                        <div class="header-card">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Singolo</span>
+                        </div>
+                        <div class="body-card">
+                         <h4>Professional</h4>
+                         <p><b>€ 12.00</b></p>
+                         <p class="grey">/mese</p>
+                         <ul>
+                            <li><i class="fa-solid fa-user"></i> 1 Utente</li>
+                            <li><i class="fa-solid fa-folder"></i><span> 5 Tb di spazio di archiviazione sicuro</span></li>
+                            <li><i class="fa-solid fa-share-nodes"></i><span> Funzioni di Produttività Premium e condivisione file semplice e sicura</span></li>
+                         </ul>
+                         <button class="b-button"><a href="#"></a>Prova Gratis per 30 giorni</button>
+                            <p>oppure <a id="link" href="#"> acquista ora</a></p>
+                        </div>
+                            <article class="marchio"> Levi's</article>
+                            <h5>RELAXED FIT TEE UNISEX</h5>
+                            <span class="p-attuale">14,99€</span>     
+                            <s class="p-pieno">29,99€</s>   
+                        </div>
+                        
+                    </div>
+                </div> 
+
         </div>
+        </section>
+        
+        
         
     </main>
     
