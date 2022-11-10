@@ -188,6 +188,17 @@
         background-color: black;
         margin-bottom: 30px;
         }
-        .fa-solid .fa-check{
-          color:blue;
+        .body-card-big{
+        width:auto;
+        height: auto;
+        padding: 10px 15px;
         }
+        .header-cardone{
+        font-size:small;
+        height: 40px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+        
