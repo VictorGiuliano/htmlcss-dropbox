@@ -25,7 +25,7 @@
     
     h4{
       font-size: 15px;
-      margin-bottom:10px;
+      margin:20px 0;
     }  
     .jumbo-pic{
         height: 290px;
@@ -38,7 +38,7 @@
     }
     p{
         font-size: small;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
     .grey{
       color: grey;
@@ -80,9 +80,13 @@
       }
       .principale{
         position: relative;
-        margin:     0px auto;
+        margin:     20px auto;
         max-width: 715px;
+        min-width: 690px;
         height: 430px;
+      }
+      .center{
+        text-align: center;
       }
       .secondario{
         margin:     0px auto;
@@ -102,6 +106,9 @@
       .float-right{
         float:right;
       }
+      .float-left{
+        float: left;
+      }
 
       /* Bottoni */
       .b-small{
@@ -120,6 +127,16 @@
         padding: 5px;
         font-size: small;
         margin-bottom: 10px;
+      }
+      .w-button{
+        background-color: white;
+        color: black;
+        border: 1px solid gray;
+        height: auto;
+        width: auto;
+        padding: 5px 10px;
+        font-size: x-small;
+
       }
 
       .downward{
@@ -174,7 +191,7 @@
         padding: 10px 15px;
       }
       .body-card li{
-        margin:18px 0;
+        margin:10px 0;
         font-size: small;
       }
       #link{
@@ -201,4 +218,7 @@
         align-items: center;
         justify-content: space-between;
         }
-        
+        .partner-pic{
+          height: 380px;
+          margin-right: 25px;
+        }
