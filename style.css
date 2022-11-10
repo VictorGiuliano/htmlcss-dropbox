@@ -22,6 +22,7 @@
     h3{
       font-size: 22px;
     }  
+    
     h4{
       font-size: 15px;
       margin-bottom:10px;
@@ -88,7 +89,6 @@
         padding: 100px 0;
         max-width: 690px;
         height: 900px;
-        background-color: red;
       }
       .clearfix{
         content: "";
@@ -114,7 +114,11 @@
         color:white;
         background-color: rgb(0,97,255);
         border: 0;
-        padding: 10px 20px;
+        height: 30px;
+        width: 160px;
+        min-width: 80px;
+        padding: 5px;
+        font-size: small;
         margin-bottom: 10px;
       }
 
@@ -146,34 +150,31 @@
 
       /* Colonne */
       .card{
-        position:relative;
+        margin-top: 25px;
         background-color: white;
-
+        max-height: 700px;
+        border: 1px solid gray;
       }
       .row{
         display: flex;
-        gap:5px;
-      }
-      .colum{
+        gap:30px;
         flex-basis: calc(100%/3);
-        min-height: 200px;
-        margin-bottom: 30px;
       }
       .header-card{
         text-align: center;
-        height: 40px;
+        height: auto;
         width: auto;
         padding: 10px 0;
-        border: 2px dashed black;
+        border-bottom: 1px solid gray;
       }
       .body-card{
         width:auto;
         height: auto;
+        max-width: 230px;
         padding: 10px 15px;
-        background-color: brown;
       }
       .body-card li{
-        margin:15px 0;
+        margin:18px 0;
         font-size: small;
       }
       #link{
@@ -181,3 +182,12 @@
         color: blue;
         font-size: small;
       }
+      .cut{
+        width: 50px;
+        height: 1px;
+        background-color: black;
+        margin-bottom: 30px;
+        }
+        .fa-solid .fa-check{
+          color:blue;
+        }
