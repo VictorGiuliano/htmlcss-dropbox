@@ -71,7 +71,7 @@
       /* Main */
       .container{
         width: 0, auto;
-        height: 2000px;
+        height: 1600px;
         min-height: 900px;
       }
       .jumbotron{
@@ -219,4 +219,19 @@
         .vantaggi{
           width: 0, auto;
           background-color:rgb(180,208,231) ;
+        }
+        .row-operazioni{
+          display: flex;
+          gap:10px;
+          flex-basis: calc(100%/3); 
+        }
+        .pics{
+          text-align: center;
+        }
+        .operazioni-pics{
+          height:200px
+        }
+        .card-operazioni{
+        max-width: 280px;
+        margin-top: 30px;
         }
