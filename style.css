@@ -188,7 +188,7 @@
         margin:10px 0;
         font-size: small;
       }
-      #link{
+      .link{
         text-decoration:underline;
         color: blue;
         font-size: small;
@@ -234,4 +234,9 @@
         .card-operazioni{
         max-width: 280px;
         margin-top: 30px;
+        }
+        .box-scritta{
+          height: 90px;
+          width: 350px;
+          margin-top:100px;
         }
