@@ -8,6 +8,30 @@
     body{
     font-family: Arial, Helvetica, sans-serif;
     }
+    .green-back{
+      background-color: rgb(162,211,155);
+    }
+    .bordue-back{
+      background-color:rgb(97,8,43)
+    }
+    .azur-back{
+      background-color:rgb(0,147,206)
+    }
+    .red-back{
+      background-color: red;
+    }
+    .rscuro-back{
+      background-color: rgb(210,0,31);
+    }
+    .ciano-back{
+      background-color: rgb(180,208,231) ;;
+    }
+    .blue-back{
+      background-color: rgb(13,36,128);
+    }
+    .yellow-back{
+      background-color: rgb(255,216,48);
+    }
     ul{
       list-style-type: none;
     }
@@ -239,4 +263,35 @@
           height: 90px;
           width: 350px;
           margin-top:100px;
+        }
+        /* Quadrati */
+        .container-square{
+          display: flex;
+          width: 0, auto;
+          height: 700px;
+        }
+        .square{
+          background-color: rgb(245,245,245);
+          width: calc(100%/3);
+          height: calc(100%/3);
+          display: flex;
+          flex-wrap: wrap;
+        }
+        .small-square{
+          width: 50%;
+          height: 50%; 
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .small-square:hover{
+          border: 10px solid rgba(255, 255, 255, 0.5);
+        }
+        .small-square img{
+          width: 50%;
+          filter: invert(1);
+        }
+        
+        #cliente{
+          width: 200px;
         }
